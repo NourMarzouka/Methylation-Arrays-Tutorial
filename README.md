@@ -1,7 +1,7 @@
 # Methylation Arrays Tutorial
 
 This tutorial provides instructions for setting up and running an analysis of methylation data using Illumina HumanMethylation EPICv2 arrays with the ChAMP package in R.
-
+Original tutorial can be found [here](https://www.bioconductor.org/packages/release/bioc/vignettes/ChAMP/inst/doc/ChAMP.html)
 ## Prerequisites
 
 Before you begin, ensure that you have the following installed on your system:
