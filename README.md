@@ -39,6 +39,12 @@ install.packages("BiocManager")
 # load devtools
 library(devtools)
 library(BiocManager)
+BiocManager::install("TxDb.Hsapiens.UCSC.hg19.knownGene",
+ "FDb.InfiniumMethylation.hg19", "IlluminaHumanMethylationEPICmanifest", "IlluminaHumanMethylation450kmanifest",
+"GO.db",
+ "interactiveDisplayBase",
+"geneLenDataBase",
+"DMRcate")
 ```
 
 #### Step 2: Install `ChAMP` & `ChAMPdata` Package
